@@ -1,17 +1,18 @@
 body {
     background-color: black;
     color: #fffdd0;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite';
   }
   header {
     position: relative;
     text-align: center;
   }
   header h1 {
-    font-size: 4rem;
+    font-size: 90px;
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top: 400px;
     transform: translate(-50%, -50%);
     letter-spacing: 1px;
   }
@@ -28,6 +29,7 @@ body {
     margin-top: 1rem;
     margin-left: 20px;
   }
+
   
   /* Media query */
   @media screen and (max-width: 1200px) {

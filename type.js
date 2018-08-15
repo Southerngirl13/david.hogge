@@ -52,6 +52,6 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   window.TypingWelcomeMessage = TypingWelcomeMessage;
 
   window.onload = function onload() {
-    window.twm = new TypingWelcomeMessage("the working word");
+    window.twm = new TypingWelcomeMessage(h1="the working word");
   };
 } //else
