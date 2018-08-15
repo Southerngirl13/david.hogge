@@ -30,7 +30,7 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 10s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
@@ -41,4 +41,51 @@ body{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
-VIEW RESOURCES
+
+
+body {
+    background-color: black;
+    color: #fffdd0;
+    font-family: 'Special Elite', cursive;
+  }
+  header {
+    position: relative;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  header img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  button {
+    font-family: 'Special Elite', cursive;
+    background-color: #fffdd0;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 20px;
+  }
+  
+  /* Media query */
+  @media screen and (max-width: 1200px) {
+    header h1 {
+      font-size: 3rem;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    header h1 {
+      font-size: 1.2rem;
+    }
+  }
